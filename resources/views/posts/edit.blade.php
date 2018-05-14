@@ -17,7 +17,7 @@
         </div>
         <div class="form-group">
             <label for="body">{{ __('Body') }}</label>
-            <textarea id="body" class="form-control @if ($errors->has('body')) is-invalid @endif" name="body" rows="10" required>{{ old('body', $post->body) }}</textarea>
+            <textarea id="body" class="form-control @if ($errors->has('body')) is-invalid @endif" name="body" rows="18" required>{{ old('body', $post->body) }}</textarea>
             @if ($errors->has('body'))
                 <span class="invalid-feedback">{{ $errors->first('body') }}</span>
             @endif

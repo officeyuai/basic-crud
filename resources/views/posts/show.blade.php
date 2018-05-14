@@ -43,7 +43,7 @@
     </dl>
     <hr>
     <div id="post-body">
-        <textarea id="body" class="form-control" name="body" rows="10" readonly >{{ $post->body }}</textarea>
+        <textarea id="body" class="form-control" name="body" rows="18" readonly >{{ $post->body }}</textarea>
        
     </div>
 </div>
